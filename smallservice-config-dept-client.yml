@@ -8,6 +8,7 @@ server:
   #context-path: /study 配置根目录
 #数据库信息配置
 spring:
+  profiles: dev
   application:
     name: smallservice-springcloud-dept  #应用名称
   datasource:
@@ -65,6 +66,7 @@ server:
   #context-path: /study 配置根目录
 #数据库信息配置
 spring:
+  profiles: test
   application:
     name: smallservice-springcloud-dept  #应用名称
   datasource:
